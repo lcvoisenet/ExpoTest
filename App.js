@@ -14,7 +14,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>hello</Text>
-      <Button title="Show alert" onPress={() => Alert.alert('Hello')} />
+      <Button title="Show alert" onPress={() => Alert.alert('Touched')} />
     </View>
   );
 }
